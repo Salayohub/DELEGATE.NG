@@ -6,6 +6,7 @@ import { auth, googleProvider } from "@/lib/firebaseClient";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useRouter } from "next/router";
 
+
 export default function LoginPage() {
   const router = useRouter();
   const [email, setEmail] = useState("");
@@ -85,14 +86,20 @@ export default function LoginPage() {
           <div className="border-t w-1/4 border-gray-300"></div>
         </div>
 
-        <button
-          onClick={handleGoogleLogin}
-          className="w-full flex items-center justify-center gap-2 border py-3 rounded-lg hover:bg-gray-100 transition"
-          disabled={loading}
-        >
-          <img src="../asset/download.svg" alt="Google" className="w-5 h-5" />
-          <span>Continue with Google</span>
-        </button>
+       <button
+  onClick={handleGoogleLogin}
+  className="w-full flex items-center justify-center gap-2 border py-3 rounded-lg hover:bg-gray-100 transition"
+  disabled={loading}
+>
+  <img
+    src="/asset/google.svg"
+    alt="Google"
+    width={20}
+    height={20}
+  />
+  <span>Continue with Google</span>
+</button>
+
 
         <p className="text-sm text-gray-500 text-center mt-6">
           Don’t have an account?{" "}

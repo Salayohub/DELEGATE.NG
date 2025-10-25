@@ -90,7 +90,7 @@ export default function SignupPage() {
           className="w-full flex items-center justify-center gap-2 border py-3 rounded-lg hover:bg-gray-100 transition"
           disabled={loading}
         >
-          <img src="/google-icon.svg" alt="Google" className="w-5 h-5" />
+          <img src="/google.svg" alt="Google" className="w-5 h-5" />
           <span>Sign Up with Google</span>
         </button>
 

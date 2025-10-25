@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { Span } from "next/dist/trace";
+import Link from "next/link";
 
 export default function Footer() {
   const router = useRouter();
@@ -18,7 +20,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
         {/* --- Brand Section --- */}
         <div>
-          <h3 className="text-lg font-bold mb-3 text-indigo-400">Delegate.NG</h3>
+           <Link href="/" className="text-2xl font-bold text-blue-600">
+          <h3>Task<span className="text-amber-50">Trust</span></h3>
+        </Link>
           <p className="text-sm text-gray-400">
             Your trusted partner for delegation and monitoring across Nigeria.
           </p>

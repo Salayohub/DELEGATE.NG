@@ -1,12 +1,12 @@
 function PackagesSection() {
   const packages = [
-    { name: "Pay-as-you-go", price: "₦5,000 / task", desc: "Perfect for one-time requests" },
-    { name: "Monthly", price: "₦15,000 / month", desc: "Ideal for frequent users" },
-    { name: "Yearly", price: "₦120,000 / year", desc: "For continuous access and loyalty perks" }
+    { name: "Pay-as-you-go", price: "₦50,000 / task", desc: "Perfect for one-time requests" },
+    { name: "Monthly", price: "₦200,000 / month", desc: "Ideal for frequent users" },
+    { name: "Yearly", price: "₦1,000,000 / year", desc: "For continuous access and loyalty perks" }
   ];
 
   return (
-    <section className="py-12 bg-gray-100 text-center">
+    <section className="py-12 bg-gray-100 text-center py-7">
       <h2 className="text-3xl font-semibold mb-8">Our Packages</h2>
       <div className="grid md:grid-cols-3 gap-6 px-6">
         {packages.map((pkg) => (
