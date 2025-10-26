@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function PackagesPage() {
   return (
-    <section className="min-h-screen bg-gray-50 py-20 px-6">
+    <section className="bg-blue-700 text-white py-20 text-center">
       <div className="max-w-7xl mx-auto text-center mb-16 bg-blue-600 py-8">
         <h1 className="text-4xl md:text-5xl text-white font-bold  mb-4">
           Choose Your Plan
