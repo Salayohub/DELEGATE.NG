@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+/*import type { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "POST") {
@@ -9,3 +9,4 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   // You can clear localStorage/sessionStorage on the frontend.
   return res.status(200).json({ success: true, message: "Logged out successfully" });
 }
+*/
